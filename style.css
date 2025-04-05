@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Font for the whole page */
+    margin: 0;
+    padding: 0;
+    background-color: #04ee3e; 
+    color: #333; /* Dark text color for good contrast */
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif; /* Serif font for headings */
+    color: #333; /* Heading text color */
+  }
+  /* Header Section */
+header {
+    background-color: #333; /* Dark background for the header */
+    color: white; /* White text color */
+    padding: 20px; /* Spacing inside the header */
+    text-align: center; /* Centers the text */
+  }
+  
+  header h1 {
+    font-size: 2.5em; /* Bigger font for your name */
+  }
+  
+  nav a {
+    color: white; /* White links */
+    text-decoration: none; /* No underline on links */
+    margin: 0 15px; /* Spacing between links */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Underline on hover for effect */
+  }
+/* Main Content Section */
+main {
+    padding: 20px; /* Adds some space inside */
+    max-width: 1200px; /* Limits width for readability */
+    margin: 0 auto; /* Centers the content */
+  }
+  
+  h2 {
+    color: #4CAF50; /* Green color for the section titles */
+  }
+  
+  ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+  }
+  
+  ul li {
+    margin: 10px 0; /* Adds space between list items */
+  }
+/* Contact Section */
+#contact {
+    background-color: #fff; /* White background for the contact section */
+    padding: 30px;
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    margin-top: 30px;
+  }
+  
+  /* Style the Hire Me Button */
+  .hire-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hire-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+        /* Responsive Design */
+@media (max-width: 768px) {
+    header {
+      text-align: left; /* Align header text to the left on smaller screens */
+    }
+  
+    main {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  
+    .hire-button {
+      width: 100%; /* Makes the Hire Me button take full width on mobile */
+    }
+  }
